@@ -64,7 +64,12 @@ const DiscountCalculator = () => {
         <h1 className="text-2xl my-6 sm:my-0 sm:mb-6 font-bold">
           Discount Calculator
         </h1>
-        <p>Made by Karthxx</p>
+        <p className="text-center sm:px-10">
+          {`Welcome to our free online Discount Calculator! Whether you're
+          shopping for groceries, electronics, or planning your next big
+          purchase, our easy-to-use tool helps you quickly determine how much
+          you'll save with any discount.`}
+        </p>
       </div>
     </div>
   );
