@@ -38,6 +38,8 @@ const DiscountCalculator = () => {
             value={originalPrice}
             onChange={(e) => setOriginalPrice(e.target.value)}
             className="w-full p-2 border rounded text-black"
+            inputMode="numeric"
+            pattern="[0-9]*"
           />
         </div>
         <div className="mb-4">
@@ -47,6 +49,8 @@ const DiscountCalculator = () => {
             value={discountPercentage}
             onChange={(e) => setDiscountPercentage(e.target.value)}
             className="w-full p-2 border rounded text-black"
+            inputMode="numeric"
+            pattern="[0-9]*"
           />
         </div>
         <div className="mb-2">
@@ -61,7 +65,6 @@ const DiscountCalculator = () => {
           Discount Calculator
         </h1>
         <p>Made by Karthxx</p>
-        <p>MSc User Experinence Engineering</p>
       </div>
     </div>
   );
