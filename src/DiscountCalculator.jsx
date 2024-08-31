@@ -38,8 +38,8 @@ const DiscountCalculator = () => {
             value={originalPrice}
             onChange={(e) => setOriginalPrice(e.target.value)}
             className="w-full p-2 border rounded text-black"
-            inputMode="numeric"
-            pattern="[0-9]*"
+            inputMode="decimal"
+            pattern="\d*"
           />
         </div>
         <div className="mb-4">
@@ -49,8 +49,8 @@ const DiscountCalculator = () => {
             value={discountPercentage}
             onChange={(e) => setDiscountPercentage(e.target.value)}
             className="w-full p-2 border rounded text-black"
-            inputMode="numeric"
-            pattern="[0-9]*"
+            inputMode="decimal"
+            pattern="\d*"
           />
         </div>
         <div className="mb-2">
