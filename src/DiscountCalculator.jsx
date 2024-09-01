@@ -30,6 +30,17 @@ const DiscountCalculator = () => {
 
   return (
     <div className="sm:flex max-w-4xl mx-auto">
+      <div className="flex flex-col items-center justify-center sm:w-6/12 sm:mr-6 mb-10">
+        <h1 className="text-2xl my-6 sm:my-0 sm:mb-6 font-bold">
+          Discount Calculator
+        </h1>
+        <h2 className="text-center sm:px-10">
+          {`Welcome to free online Discount Calculator! Whether you're
+          shopping for groceries, electronics, or planning your next big
+          purchase, our easy-to-use tool helps you quickly determine how much
+          you'll save with any discount.`}
+        </h2>
+      </div>
       <div className="p-4 max-w-md sm:w-6/12 mx-auto border rounded">
         <div className="mb-4">
           <label className="block mb-2">Original Price:</label>
@@ -59,17 +70,6 @@ const DiscountCalculator = () => {
         <div>
           <strong>You Save:</strong> {savings ? `$${savings}` : ""}
         </div>
-      </div>
-      <div className="flex flex-col items-center justify-center sm:w-6/12">
-        <h1 className="text-2xl my-6 sm:my-0 sm:mb-6 font-bold">
-          Discount Calculator
-        </h1>
-        <p className="text-center sm:px-10">
-          {`Welcome to free online Discount Calculator! Whether you're
-          shopping for groceries, electronics, or planning your next big
-          purchase, our easy-to-use tool helps you quickly determine how much
-          you'll save with any discount.`}
-        </p>
       </div>
     </div>
   );
