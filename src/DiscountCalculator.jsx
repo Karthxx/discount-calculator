@@ -30,7 +30,7 @@ const DiscountCalculator = () => {
 
   return (
     <div className="sm:flex max-w-4xl mx-auto">
-      <div className="flex flex-col items-center justify-center sm:w-6/12 sm:mr-6 mb-10">
+      <div className="flex flex-col items-center justify-center sm:w-6/12 sm:mr-6 mb-10 sm:mb-0">
         <h1 className="text-2xl my-6 sm:my-0 sm:mb-6 font-bold">
           Discount Calculator
         </h1>

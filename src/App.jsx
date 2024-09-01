@@ -7,7 +7,7 @@ function App() {
       <section className="text-white p-4 border-b-">
         <Navbar />
       </section>
-      <section className="text-white m-8 sm:h-screen  sm:mt-36">
+      <section className="text-white mx-8 sm:h-screen  sm:pt-36">
         <DiscountCalculator />
       </section>
     </>
